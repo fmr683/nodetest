@@ -6,7 +6,7 @@ function main(req, res, next) {
     var start = new Date();
     let options = { 
         method: req.method, 
-        uri: 'https://www.google.com/search?hl=en&q=' + req.path + '&btnG=Google+Search', 
+        uri: 'https://tripzumi.com/' + req.path, 
     };
 
     request(options, function (error, response, body) {

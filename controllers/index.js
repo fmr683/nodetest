@@ -14,7 +14,7 @@ function main(req, res, next) {
     } 
 
     let options = { 
-        method: req.method, 
+        method: req.method,
         uri: domain + '/' + url, 
     };
 

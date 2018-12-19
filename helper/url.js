@@ -14,6 +14,7 @@ module.exports = class Url {
     return domain replaced URL
    */
     updateUrl(url, domain) { 
-        return url.replace('="/', '="'+ domain + '/'); 
+        let urlObj = url;
+        return urlObj.replace('="/', '="'+ domain + '/'); 
     } 
 } 

@@ -4,12 +4,12 @@ function gooleSearch() {
     var start = new Date();
     let options = { 
         method: "GET", 
-        uri: 'http://localhost:3000/SegD0=ACR&SegO0=CMB&SegDt1=2019-05-30&SegDt0=2019-05-16', 
+        uri: 'http://localhost:3000/BOM-MAA/2018-12-20/Y/1a/N/N/', 
     };
 
     request(options, function (error, response, body) {
             
-        console.log('Request took:', new Date() - start, 'ms');
+       // console.log('Request took:', new Date() - start, 'ms');
     });
 }
 

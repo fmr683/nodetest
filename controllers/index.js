@@ -16,7 +16,7 @@ function main(req, res, next) {
     let year = currentDate.getFullYear()
 
     if (req.path !== '') {
-        url = '/flights/' + req.path;
+        url = req.path;
     } 
 
     let options = { 
